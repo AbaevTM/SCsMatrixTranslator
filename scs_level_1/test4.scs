@@ -1,0 +1,15 @@
+/*
+	* 1 уровень. типы коннекторов.
+*/
+
+a_1 | sc_arc_common#b_1 | c_1 ;;
+a_1 | sc_arc_main#b_2 | c_2 ;;
+a_1 | sc_arc_access#b_3 | c_3 ;;
+a_1 | sc_edge_common#b_4 | c_4 ;;
+a_1 | b_5 | c_5 ;;
+
+/*
+
+ok
+
+*/

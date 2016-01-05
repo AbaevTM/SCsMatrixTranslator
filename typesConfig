@@ -1,0 +1,92 @@
+21
+sc_node:1:5
+sc_link:1:5
+sc_arc_common:2:4,8
+sc_arc_main:4:0,4,6,10
+sc_arc_access:3:4,8,9
+sc_edge_common:1:3
+sc_const:1:0
+sc_var:1:1
+sc_arc_pos:2:4,6
+sc_arc_neg:2:4,7
+sc_arc_fuz:2:4,8
+sc_arc_perm:2:4,10
+sc_arc_temp:2:4,9
+sc_node_tuple:2:0,5
+sc_node_struct:2:0,5
+sc_node_role_relation:2:0,5
+sc_node_norole_relation:2:0,5
+sc_node_not_relation:2:0,5
+sc_node_abstract:2:0,5
+sc_node_material:2:0,5
+sc_arc_pos_const_perm:4:0,4,6,10
+13
+0:1:1
+1:1:0
+2:0
+3:2:0,1
+4:1:5
+5:1:4
+6:2:7,8
+7:2:6,8
+8:2:6,7
+9:1:10
+10:1:9
+11:1:12
+12:1:11
+// THIS PART IS NOT PARSED AND SHOULD BE IGNORED
+
+	FORMAT OF THIS FILE
+
+	<number of type correspondences>
+	<scs type>:<number of corresponding types>:<type index 1>,<type index 2>,... 
+	...
+	<number of incompatible type lists>
+	<type index 1>:<number of types incompatible with this type>:<incompatible type index 1>,<incompatible type index 2>,... 
+
+	EXAMPLE
+	
+	1
+	sc_node:1:0 
+	1
+	0:1:3
+		// For "sc_node" there is one corresponding matrix type having index 0. 
+		// Matrix type having index 0 is incompatible with a single matrix type - 3.
+	
+1. Node и линк, точно не константные - sc_addr createScAddr(sElement *el) первый иф
+
+
+sc_node_tuple
+sc_node_abstract
+sc_node_material
+
+
+->:2:0,8
+
+		0	1	2	3		4	5	6		7		8	9		10		11	12
+/*		CONST	VAR	META	UNCERTAINED 	ARC	NODE	POSITIVE	NEGATIVE	FUZZY	TEMPORARY	PERMANENT	ACTUAL	PHANTOM
+node		?nc				?nu		?n
+link		?lc				?lu		?ln
+common edge					?eu							?
+common edge var		1			?eu     						?
+common edge con 1				?eu     						?
+common arc						1       					?
+common arc var		1				1       					?
+common arc con	1					1						?
+arc accessory						1						?af		?
+main arc	1					1		1							1    
+arc pos const p	1					1		1							1		1
+arc neg const p 1    					1			1						1		1
+arc fuz const p 1  					1 				1					1		1
+arc pos const t 1					1		1						1			?ac	?ph
+arc neg const t 1					1			1					1			?ac	?ph
+arc fuz const t 1					1				1				1			?ac	?ph
+arc pos var p		1				1		1							1               1
+arc neg var p		1				1			1						1               1
+arc fuz var p		1				1				1					1               1
+arc pos var t		1				1		1						1			?ac	?ph
+arc neg var t		1				1    			1					1			?ac	?ph
+arc fuz var t		1				1				1				1			?ac	?ph
+
+
+*/
