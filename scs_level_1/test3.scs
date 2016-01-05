@@ -1,15 +1,22 @@
 /*
-	* 1 уровень.пятерка.
+Cannot parse this due to wrong grammar
+a > b;;
 */
-
-a_1 | b_1 | c_1 ;;
-d_1 | b_2 | b_1 ;;
-
-/*
-все упало и лежит
-
-ERROR:/home/timur/ostis/sc-machine/sc-memory/src/sc-store/sc_storage.c:593:sc_storage_node_new_ext: assertion failed: (!(sc_type_arc_mask & type))
-./start_kb.sh: line 2:  5967 Aborted                 (core dumped) ./sc-machine/bin/sc-builder -f -c -i ./ims.ostis.kb -o ./repo -s sc-web.ini -e ./sc-machine/bin/extensions
-
-
-*/
+a -> b;;
+a <> b;;
+a ..> b;;
+a <=> b;;
+a _<=> b;;
+a => b;;
+a _=> b;;
+a _-> b;;
+a -|> b;;
+a _-|> b;;
+a -/> b;;
+a _-/> b;;
+a ~> b;;
+a _~> b;;
+a ~|> b;;
+a _~|> b;;
+a ~/> b;;
+a _~/> b;;

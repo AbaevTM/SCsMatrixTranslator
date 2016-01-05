@@ -12016,3 +12016,6743 @@ MATRIX
 	0000000000000|010001000
 	0000000000000|001001000
 	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2429104
+	Reading 1 corresponding types for type : 1
+		2429112
+	Reading 0 corresponding types for type : 2
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test0.scs
+New element has been discovered.
+	Identifier : a_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : b_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : c_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 16 Arc element : 17
+New element has been discovered.
+	Identifier : a_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_3
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b_3
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 18 Target element : 19 Arc element : 20
+New element has been discovered.
+	Identifier : b_4
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 18 Target element : 14 Arc element : 21
+New element has been discovered.
+	Identifier : b_5
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 18 Arc element : 22
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 23x23 (elements) 
+	Actually allocating : 23x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier a_1
+		Data (null)
+	Element 1
+		Identifier c_1
+		Data (null)
+	Element 2
+		Identifier b_1
+		Data (null)
+	Element 3
+		Identifier c_2
+		Data (null)
+	Element 4
+		Identifier b_2
+		Data (null)
+	Element 5
+		Identifier a_2
+		Data (null)
+	Element 6
+		Identifier c_3
+		Data (null)
+	Element 7
+		Identifier b_3
+		Data (null)
+	Element 8
+		Identifier b_4
+		Data (null)
+	Element 9
+		Identifier b_5
+		Data (null)
+MATRIX
+	0000000000000|1101011000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0010100111
+	0000000000000|0000000000
+	0000000000000|1101011000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	------------------------
+	0000000000000|0010100001 a_1
+	0000000000000|0000000000 c_1
+	0000000000000|1100000000 b_1
+	0000000000000|0000000000 c_2
+	0000000000000|1001000000 b_2
+	0000000000000|0000000110 a_2
+	0000000000000|0000000000 c_3
+	0000000000000|0000011000 b_3
+	0000000000000|0100010000 b_4
+	0000000000000|1000010000 b_5
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2429104
+	Reading 1 corresponding types for type : 1
+		2429112
+	Reading 0 corresponding types for type : 2
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test1.scs
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r1
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r2
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r3
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : y
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 17 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 18 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 15 Target element : 18 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 16 Target element : 18 Arc element : 21
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 22x22 (elements) 
+	Actually allocating : 22x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier x
+		Data (null)
+	Element 1
+		Identifier r1
+		Data (null)
+	Element 2
+		Identifier r2
+		Data (null)
+	Element 3
+		Identifier r3
+		Data (null)
+	Element 4
+		Identifier y
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|111110111
+	0000000000000|000001000
+	0000000000000|000000000
+	0000000000000|000000000
+	0000000000000|000001111
+	0000000000000|111110000
+	0000000000000|000000111
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001111
+	0000000000000|000000000
+	0000000000000|000000000
+	-----------------------
+	0000000000000|000001000 x
+	0000000000000|000000100 r1
+	0000000000000|000000010 r2
+	0000000000000|000000001 r3
+	0000000000000|000000000 y
+	0000000000000|100010000
+	0000000000000|010001000
+	0000000000000|001001000
+	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2429104
+	Reading 1 corresponding types for type : 1
+		2429112
+	Reading 0 corresponding types for type : 2
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test1.scs
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r1
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r2
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r3
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : y
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 17 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 18 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 15 Target element : 18 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 16 Target element : 18 Arc element : 21
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 22x22 (elements) 
+	Actually allocating : 22x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier x
+		Data (null)
+	Element 1
+		Identifier r1
+		Data (null)
+	Element 2
+		Identifier r2
+		Data (null)
+	Element 3
+		Identifier r3
+		Data (null)
+	Element 4
+		Identifier y
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|111110111
+	0000000000000|000001000
+	0000000000000|000000000
+	0000000000000|000000000
+	0000000000000|000001111
+	0000000000000|111110000
+	0000000000000|000000111
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001111
+	0000000000000|000000000
+	0000000000000|000000000
+	-----------------------
+	0000000000000|000001000 x
+	0000000000000|000000100 r1
+	0000000000000|000000010 r2
+	0000000000000|000000001 r3
+	0000000000000|000000000 y
+	0000000000000|100010000
+	0000000000000|010001000
+	0000000000000|001001000
+	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2429104
+	Reading 1 corresponding types for type : 1
+		2429112
+	Reading 0 corresponding types for type : 2
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test2.scs
+New element has been discovered.
+	Identifier : a_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : b_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : sc_edge_common#b_2
+	Identifier size : 18
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 16
+New element has been discovered.
+	Identifier : sc_arc_common#b_3
+	Identifier size : 17
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+Arc discovered. Source element : 13 Target element : 14 Arc element : 17
+New element has been discovered.
+	Identifier : sc_arc_main#b_4
+	Identifier size : 15
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 18
+New element has been discovered.
+	Identifier : sc_arc_access#b_5
+	Identifier size : 17
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 19
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 20x20 (elements) 
+	Actually allocating : 20x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier a_1
+		Data (null)
+	Element 1
+		Identifier c_1
+		Data (null)
+	Element 2
+		Identifier b_1
+		Data (null)
+	Element 3
+		Identifier sc_edge_common#b_2
+		Data (null)
+	Element 4
+		Identifier sc_arc_common#b_3
+		Data (null)
+	Element 5
+		Identifier sc_arc_main#b_4
+		Data (null)
+	Element 6
+		Identifier sc_arc_access#b_5
+		Data (null)
+MATRIX
+	0000000000000|1100010
+	0000000000000|0000000
+	0000000000000|0000000
+	0000000000000|0011000
+	0000000000000|0000111
+	0000000000000|1100000
+	0000000000000|0000010
+	0000000000000|0000000
+	0000000000000|0000101
+	0000000000000|0000001
+	0000000000000|0000010
+	0000000000000|0000000
+	0000000000000|0000000
+	---------------------
+	0000000000000|0011111 a_1
+	0000000000000|0000000 c_1
+	0000000000000|1100000 b_1
+	0000000000000|1100000 sc_edge_common#b_2
+	0000000000000|1100000 sc_arc_common#b_3
+	0000000000000|1100000 sc_arc_main#b_4
+	0000000000000|1100000 sc_arc_access#b_5
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2429104
+	Reading 1 corresponding types for type : 1
+		2429112
+	Reading 0 corresponding types for type : 2
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+	Reading 2 corresponding types for type : 2
+		2429116
+		2429116
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		4657328
+	Reading 1 corresponding types for type : 1
+		4657336
+	Reading 0 corresponding types for type : 2
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test0.scs
+New element has been discovered.
+	Identifier : a_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : b_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : c_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 16 Arc element : 17
+New element has been discovered.
+	Identifier : a_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_3
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b_3
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 18 Target element : 19 Arc element : 20
+New element has been discovered.
+	Identifier : b_4
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 18 Target element : 14 Arc element : 21
+New element has been discovered.
+	Identifier : b_5
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 18 Arc element : 22
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 23x23 (elements) 
+	Actually allocating : 23x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier a_1
+		Data (null)
+	Element 1
+		Identifier c_1
+		Data (null)
+	Element 2
+		Identifier b_1
+		Data (null)
+	Element 3
+		Identifier c_2
+		Data (null)
+	Element 4
+		Identifier b_2
+		Data (null)
+	Element 5
+		Identifier a_2
+		Data (null)
+	Element 6
+		Identifier c_3
+		Data (null)
+	Element 7
+		Identifier b_3
+		Data (null)
+	Element 8
+		Identifier b_4
+		Data (null)
+	Element 9
+		Identifier b_5
+		Data (null)
+MATRIX
+	0000000000000|1101011000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0010100111
+	0000000000000|0000000000
+	0000000000000|1101011000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	------------------------
+	0000000000000|0010100001 a_1
+	0000000000000|0000000000 c_1
+	0000000000000|1100000000 b_1
+	0000000000000|0000000000 c_2
+	0000000000000|1001000000 b_2
+	0000000000000|0000000110 a_2
+	0000000000000|0000000000 c_3
+	0000000000000|0000011000 b_3
+	0000000000000|0100010000 b_4
+	0000000000000|1000010000 b_5
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		4657328
+	Reading 1 corresponding types for type : 1
+		4657336
+	Reading 0 corresponding types for type : 2
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test1.scs
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r1
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r2
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r3
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : y
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 17 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 18 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 15 Target element : 18 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 16 Target element : 18 Arc element : 21
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 22x22 (elements) 
+	Actually allocating : 22x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier x
+		Data (null)
+	Element 1
+		Identifier r1
+		Data (null)
+	Element 2
+		Identifier r2
+		Data (null)
+	Element 3
+		Identifier r3
+		Data (null)
+	Element 4
+		Identifier y
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|111110111
+	0000000000000|000001000
+	0000000000000|000000000
+	0000000000000|000000000
+	0000000000000|000001111
+	0000000000000|111110000
+	0000000000000|000000111
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001111
+	0000000000000|000000000
+	0000000000000|000000000
+	-----------------------
+	0000000000000|000001000 x
+	0000000000000|000000100 r1
+	0000000000000|000000010 r2
+	0000000000000|000000001 r3
+	0000000000000|000000000 y
+	0000000000000|100010000
+	0000000000000|010001000
+	0000000000000|001001000
+	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		4657328
+	Reading 1 corresponding types for type : 1
+		4657336
+	Reading 0 corresponding types for type : 2
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test1.scs
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r1
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r2
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r3
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : y
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 17 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 18 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 15 Target element : 18 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 16 Target element : 18 Arc element : 21
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 22x22 (elements) 
+	Actually allocating : 22x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier x
+		Data (null)
+	Element 1
+		Identifier r1
+		Data (null)
+	Element 2
+		Identifier r2
+		Data (null)
+	Element 3
+		Identifier r3
+		Data (null)
+	Element 4
+		Identifier y
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|111110111
+	0000000000000|000001000
+	0000000000000|000000000
+	0000000000000|000000000
+	0000000000000|000001111
+	0000000000000|111110000
+	0000000000000|000000111
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001111
+	0000000000000|000000000
+	0000000000000|000000000
+	-----------------------
+	0000000000000|000001000 x
+	0000000000000|000000100 r1
+	0000000000000|000000010 r2
+	0000000000000|000000001 r3
+	0000000000000|000000000 y
+	0000000000000|100010000
+	0000000000000|010001000
+	0000000000000|001001000
+	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		4657328
+	Reading 1 corresponding types for type : 1
+		4657336
+	Reading 0 corresponding types for type : 2
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+	Reading 2 corresponding types for type : 2
+		4657340
+		4657340
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test2.scs
+New element has been discovered.
+	Identifier : a_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : b_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : sc_edge_common#b_2
+	Identifier size : 18
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 16
+New element has been discovered.
+	Identifier : sc_arc_common#b_3
+	Identifier size : 17
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+Arc discovered. Source element : 13 Target element : 14 Arc element : 17
+New element has been discovered.
+	Identifier : sc_arc_main#b_4
+	Identifier size : 15
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 18
+New element has been discovered.
+	Identifier : sc_arc_access#b_5
+	Identifier size : 17
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 19
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 20x20 (elements) 
+	Actually allocating : 20x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier a_1
+		Data (null)
+	Element 1
+		Identifier c_1
+		Data (null)
+	Element 2
+		Identifier b_1
+		Data (null)
+	Element 3
+		Identifier sc_edge_common#b_2
+		Data (null)
+	Element 4
+		Identifier sc_arc_common#b_3
+		Data (null)
+	Element 5
+		Identifier sc_arc_main#b_4
+		Data (null)
+	Element 6
+		Identifier sc_arc_access#b_5
+		Data (null)
+MATRIX
+	0000000000000|1100010
+	0000000000000|0000000
+	0000000000000|0000000
+	0000000000000|0011000
+	0000000000000|0000111
+	0000000000000|1100000
+	0000000000000|0000010
+	0000000000000|0000000
+	0000000000000|0000101
+	0000000000000|0000001
+	0000000000000|0000010
+	0000000000000|0000000
+	0000000000000|0000000
+	---------------------
+	0000000000000|0011111 a_1
+	0000000000000|0000000 c_1
+	0000000000000|1100000 b_1
+	0000000000000|1100000 sc_edge_common#b_2
+	0000000000000|1100000 sc_arc_common#b_3
+	0000000000000|1100000 sc_arc_main#b_4
+	0000000000000|1100000 sc_arc_access#b_5
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+New element has been discovered.
+	Identifier : a
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 15 Arc element : 16
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 16 Arc element : 17
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 15 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	0
+Arc discovered. Source element : 13 Target element : 15 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	1
+Arc discovered. Source element : 13 Target element : 15 Arc element : 21
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	0
+Arc discovered. Source element : 13 Target element : 15 Arc element : 22
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	1
+Arc discovered. Source element : 13 Target element : 15 Arc element : 23
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	10
+Arc discovered. Source element : 13 Target element : 15 Arc element : 24
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 15 Arc element : 25
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 15 Arc element : 26
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 15 Arc element : 27
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 15 Arc element : 28
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 29
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 30
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 31
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 32
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 33
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 15 Arc element : 34
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 35x35 (elements) 
+	Actually allocating : 35x40 (elements)
+	Number of bytes per raw : 5
+METADATA
+	Element 0
+		Identifier a
+		Data (null)
+	Element 1
+		Identifier x
+		Data (null)
+	Element 2
+		Identifier b
+		Data (null)
+	Element 3
+		Identifier (null)
+		Data (null)
+	Element 4
+		Identifier (null)
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+	Element 9
+		Identifier (null)
+		Data (null)
+	Element 10
+		Identifier (null)
+		Data (null)
+	Element 11
+		Identifier (null)
+		Data (null)
+	Element 12
+		Identifier (null)
+		Data (null)
+	Element 13
+		Identifier (null)
+		Data (null)
+	Element 14
+		Identifier (null)
+		Data (null)
+	Element 15
+		Identifier (null)
+		Data (null)
+	Element 16
+		Identifier (null)
+		Data (null)
+	Element 17
+		Identifier (null)
+		Data (null)
+	Element 18
+		Identifier (null)
+		Data (null)
+	Element 19
+		Identifier (null)
+		Data (null)
+	Element 20
+		Identifier (null)
+		Data (null)
+	Element 21
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|1111100101001010101010
+	0000000000000|0000000010110101010101
+	0000000000000|0000000000000000000000
+	0000000000000|0000010110000000000000
+	0000000000000|0001101001111111111111
+	0000000000000|1110000000000000000000
+	0000000000000|0001100000010000110000
+	0000000000000|0000000000001100001100
+	0000000000000|0000001001111111111111
+	0000000000000|0000001000011111111111
+	0000000000000|0001100000011111000000
+	0000000000000|0000000000000000000000
+	0000000000000|0000000000000000000000
+	------------------------------------
+	0000000000000|0001011111111111111111 a
+	0000000000000|0000100000000000000000 x
+	0000000000000|0000000000000000000000 b
+	0000000000000|1010000000000000000000
+	0000000000000|0101000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+	0000000000000|1010000000000000000000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2232496
+	Reading 1 corresponding types for type : 1
+		2232504
+	Reading 0 corresponding types for type : 2
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+	Reading 2 corresponding types for type : 2
+		2232508
+		2232508
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+New element has been discovered.
+	Identifier : a
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 16
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 17
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	0
+Arc discovered. Source element : 13 Target element : 14 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	1
+Arc discovered. Source element : 13 Target element : 14 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	0
+Arc discovered. Source element : 13 Target element : 14 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	1
+Arc discovered. Source element : 13 Target element : 14 Arc element : 21
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 22
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 23
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 24
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 25
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 26
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 27
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 28
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 29
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 30
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 31
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 32
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 33x33 (elements) 
+	Actually allocating : 33x40 (elements)
+	Number of bytes per raw : 5
+METADATA
+	Element 0
+		Identifier a
+		Data (null)
+	Element 1
+		Identifier b
+		Data (null)
+	Element 2
+		Identifier (null)
+		Data (null)
+	Element 3
+		Identifier (null)
+		Data (null)
+	Element 4
+		Identifier (null)
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+	Element 9
+		Identifier (null)
+		Data (null)
+	Element 10
+		Identifier (null)
+		Data (null)
+	Element 11
+		Identifier (null)
+		Data (null)
+	Element 12
+		Identifier (null)
+		Data (null)
+	Element 13
+		Identifier (null)
+		Data (null)
+	Element 14
+		Identifier (null)
+		Data (null)
+	Element 15
+		Identifier (null)
+		Data (null)
+	Element 16
+		Identifier (null)
+		Data (null)
+	Element 17
+		Identifier (null)
+		Data (null)
+	Element 18
+		Identifier (null)
+		Data (null)
+	Element 19
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|11100101001010101010
+	0000000000000|00000010110101010101
+	0000000000000|00000000000000000000
+	0000000000000|00010110000000000000
+	0000000000000|00101001111111111111
+	0000000000000|11000000000000000000
+	0000000000000|00100000010000110000
+	0000000000000|00000000001100001100
+	0000000000000|00001001111111111111
+	0000000000000|00001000011111111111
+	0000000000000|00100000011111000000
+	0000000000000|00000000000000000000
+	0000000000000|00000000000000000000
+	----------------------------------
+	0000000000000|00111111111111111111 a
+	0000000000000|00000000000000000000 b
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		11284656
+	Reading 1 corresponding types for type : 1
+		11284664
+	Reading 0 corresponding types for type : 2
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+	Reading 2 corresponding types for type : 2
+		11284668
+		11284668
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+New element has been discovered.
+	Identifier : a
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 16
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 17
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	0
+Arc discovered. Source element : 13 Target element : 14 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	1
+Arc discovered. Source element : 13 Target element : 14 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	0
+Arc discovered. Source element : 13 Target element : 14 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	1
+Arc discovered. Source element : 13 Target element : 14 Arc element : 21
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 22
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 23
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 24
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 25
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 26
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 27
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 28
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 29
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 30
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 31
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 32
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 33x33 (elements) 
+	Actually allocating : 33x40 (elements)
+	Number of bytes per raw : 5
+METADATA
+	Element 0
+		Identifier a
+		Data (null)
+	Element 1
+		Identifier b
+		Data (null)
+	Element 2
+		Identifier (null)
+		Data (null)
+	Element 3
+		Identifier (null)
+		Data (null)
+	Element 4
+		Identifier (null)
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+	Element 9
+		Identifier (null)
+		Data (null)
+	Element 10
+		Identifier (null)
+		Data (null)
+	Element 11
+		Identifier (null)
+		Data (null)
+	Element 12
+		Identifier (null)
+		Data (null)
+	Element 13
+		Identifier (null)
+		Data (null)
+	Element 14
+		Identifier (null)
+		Data (null)
+	Element 15
+		Identifier (null)
+		Data (null)
+	Element 16
+		Identifier (null)
+		Data (null)
+	Element 17
+		Identifier (null)
+		Data (null)
+	Element 18
+		Identifier (null)
+		Data (null)
+	Element 19
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|11100101001010101010
+	0000000000000|00000010110101010101
+	0000000000000|00000000000000000000
+	0000000000000|00010110000000000000
+	0000000000000|00101001111111111111
+	0000000000000|11000000000000000000
+	0000000000000|00100000010000110000
+	0000000000000|00000000001100001100
+	0000000000000|00001001111111111111
+	0000000000000|00001000011111111111
+	0000000000000|00100000011111000000
+	0000000000000|00000000000000000000
+	0000000000000|00000000000000000000
+	----------------------------------
+	0000000000000|00111111111111111111 a
+	0000000000000|00000000000000000000 b
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2109616
+	Reading 1 corresponding types for type : 1
+		2109624
+	Reading 0 corresponding types for type : 2
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test0.scs
+New element has been discovered.
+	Identifier : a_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : b_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : c_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 16 Arc element : 17
+New element has been discovered.
+	Identifier : a_2
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_3
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b_3
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 18 Target element : 19 Arc element : 20
+New element has been discovered.
+	Identifier : b_4
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 18 Target element : 14 Arc element : 21
+New element has been discovered.
+	Identifier : b_5
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 18 Arc element : 22
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 23x23 (elements) 
+	Actually allocating : 23x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier a_1
+		Data (null)
+	Element 1
+		Identifier c_1
+		Data (null)
+	Element 2
+		Identifier b_1
+		Data (null)
+	Element 3
+		Identifier c_2
+		Data (null)
+	Element 4
+		Identifier b_2
+		Data (null)
+	Element 5
+		Identifier a_2
+		Data (null)
+	Element 6
+		Identifier c_3
+		Data (null)
+	Element 7
+		Identifier b_3
+		Data (null)
+	Element 8
+		Identifier b_4
+		Data (null)
+	Element 9
+		Identifier b_5
+		Data (null)
+MATRIX
+	0000000000000|1101011000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0010100111
+	0000000000000|0000000000
+	0000000000000|1101011000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	0000000000000|0000000000
+	------------------------
+	0000000000000|0010100001 a_1
+	0000000000000|0000000000 c_1
+	0000000000000|1100000000 b_1
+	0000000000000|0000000000 c_2
+	0000000000000|1001000000 b_2
+	0000000000000|0000000110 a_2
+	0000000000000|0000000000 c_3
+	0000000000000|0000011000 b_3
+	0000000000000|0100010000 b_4
+	0000000000000|1000010000 b_5
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2109616
+	Reading 1 corresponding types for type : 1
+		2109624
+	Reading 0 corresponding types for type : 2
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test1.scs
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r1
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r2
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r3
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : y
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 17 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 18 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 15 Target element : 18 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 16 Target element : 18 Arc element : 21
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 22x22 (elements) 
+	Actually allocating : 22x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier x
+		Data (null)
+	Element 1
+		Identifier r1
+		Data (null)
+	Element 2
+		Identifier r2
+		Data (null)
+	Element 3
+		Identifier r3
+		Data (null)
+	Element 4
+		Identifier y
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|111110111
+	0000000000000|000001000
+	0000000000000|000000000
+	0000000000000|000000000
+	0000000000000|000001111
+	0000000000000|111110000
+	0000000000000|000000111
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001111
+	0000000000000|000000000
+	0000000000000|000000000
+	-----------------------
+	0000000000000|000001000 x
+	0000000000000|000000100 r1
+	0000000000000|000000010 r2
+	0000000000000|000000001 r3
+	0000000000000|000000000 y
+	0000000000000|100010000
+	0000000000000|010001000
+	0000000000000|001001000
+	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2109616
+	Reading 1 corresponding types for type : 1
+		2109624
+	Reading 0 corresponding types for type : 2
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test1.scs
+New element has been discovered.
+	Identifier : x
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r1
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r2
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : r3
+	Identifier size : 2
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : y
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 17 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 14 Target element : 18 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 15 Target element : 18 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 16 Target element : 18 Arc element : 21
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 22x22 (elements) 
+	Actually allocating : 22x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier x
+		Data (null)
+	Element 1
+		Identifier r1
+		Data (null)
+	Element 2
+		Identifier r2
+		Data (null)
+	Element 3
+		Identifier r3
+		Data (null)
+	Element 4
+		Identifier y
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|111110111
+	0000000000000|000001000
+	0000000000000|000000000
+	0000000000000|000000000
+	0000000000000|000001111
+	0000000000000|111110000
+	0000000000000|000000111
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001000
+	0000000000000|000001111
+	0000000000000|000000000
+	0000000000000|000000000
+	-----------------------
+	0000000000000|000001000 x
+	0000000000000|000000100 r1
+	0000000000000|000000010 r2
+	0000000000000|000000001 r3
+	0000000000000|000000000 y
+	0000000000000|100010000
+	0000000000000|010001000
+	0000000000000|001001000
+	0000000000000|000101000
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2109616
+	Reading 1 corresponding types for type : 1
+		2109624
+	Reading 0 corresponding types for type : 2
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test2.scs
+New element has been discovered.
+	Identifier : a_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : c_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : b_1
+	Identifier size : 3
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : sc_edge_common#b_2
+	Identifier size : 18
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 16
+New element has been discovered.
+	Identifier : sc_arc_common#b_3
+	Identifier size : 17
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+Arc discovered. Source element : 13 Target element : 14 Arc element : 17
+New element has been discovered.
+	Identifier : sc_arc_main#b_4
+	Identifier size : 15
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 18
+New element has been discovered.
+	Identifier : sc_arc_access#b_5
+	Identifier size : 17
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 19
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 20x20 (elements) 
+	Actually allocating : 20x24 (elements)
+	Number of bytes per raw : 3
+METADATA
+	Element 0
+		Identifier a_1
+		Data (null)
+	Element 1
+		Identifier c_1
+		Data (null)
+	Element 2
+		Identifier b_1
+		Data (null)
+	Element 3
+		Identifier sc_edge_common#b_2
+		Data (null)
+	Element 4
+		Identifier sc_arc_common#b_3
+		Data (null)
+	Element 5
+		Identifier sc_arc_main#b_4
+		Data (null)
+	Element 6
+		Identifier sc_arc_access#b_5
+		Data (null)
+MATRIX
+	0000000000000|1100010
+	0000000000000|0000000
+	0000000000000|0000000
+	0000000000000|0011000
+	0000000000000|0000111
+	0000000000000|1100000
+	0000000000000|0000010
+	0000000000000|0000000
+	0000000000000|0000101
+	0000000000000|0000001
+	0000000000000|0000010
+	0000000000000|0000000
+	0000000000000|0000000
+	---------------------
+	0000000000000|0011111 a_1
+	0000000000000|0000000 c_1
+	0000000000000|1100000 b_1
+	0000000000000|1100000 sc_edge_common#b_2
+	0000000000000|1100000 sc_arc_common#b_3
+	0000000000000|1100000 sc_arc_main#b_4
+	0000000000000|1100000 sc_arc_access#b_5
+Initizlizing type correspondence using config file : D:\temp\typesConfig
+Number of named type representations : 21
+	Reading 1 corresponding types for type : sc_node
+		NODE (5)
+	Reading 1 corresponding types for type : sc_link
+		NODE (5)
+	Reading 2 corresponding types for type : sc_arc_common
+		ARC (4)
+		FUZZY (8)
+	Reading 4 corresponding types for type : sc_arc_main
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+	Reading 3 corresponding types for type : sc_arc_access
+		ARC (4)
+		FUZZY (8)
+		TEMPORARY (9)
+	Reading 1 corresponding types for type : sc_edge_common
+		UNCERTAINED (3)
+	Reading 1 corresponding types for type : sc_const
+		CONST (0)
+	Reading 1 corresponding types for type : sc_var
+		VAR (1)
+	Reading 2 corresponding types for type : sc_arc_pos
+		ARC (4)
+		POSITIVE (6)
+	Reading 2 corresponding types for type : sc_arc_neg
+		ARC (4)
+		NEGATIVE (7)
+	Reading 2 corresponding types for type : sc_arc_fuz
+		ARC (4)
+		FUZZY (8)
+	Reading 2 corresponding types for type : sc_arc_perm
+		ARC (4)
+		PERMANENT (10)
+	Reading 2 corresponding types for type : sc_arc_temp
+		ARC (4)
+		TEMPORARY (9)
+	Reading 2 corresponding types for type : sc_node_tuple
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_struct
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_role_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_norole_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_not_relation
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_abstract
+		CONST (0)
+		NODE (5)
+	Reading 2 corresponding types for type : sc_node_material
+		CONST (0)
+		NODE (5)
+	Reading 4 corresponding types for type : sc_arc_pos_const_perm
+		CONST (0)
+		ARC (4)
+		POSITIVE (6)
+		PERMANENT (10)
+Number of incompatible types lists : 13
+	Reading 1 corresponding types for type : 0
+		2109616
+	Reading 1 corresponding types for type : 1
+		2109624
+	Reading 0 corresponding types for type : 2
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+	Reading 2 corresponding types for type : 2
+		2109628
+		2109628
+Assigning parameters
+	[PARAM] Assignment processing type : ASSIGNMENT_PROCESSING_TYPE_GENERATE_SYMMETRY
+	[PARAM] Default prefix parameter : default prefix
+	[PARAM] Synonymy relation node identifier parameter : (null)
+Allocating METADATA.
+	Number of prefixes : 1 
+	Number of elements : 0
+Initializing type node CONST
+Initializing type node VAR
+Initializing type node META
+Initializing type node UNCERTAINED
+Initializing type node ARC
+Initializing type node NODE
+Initializing type node POSITIVE
+Initializing type node NEGATIVE
+Initializing type node FUZZY
+Initializing type node TEMPORARY
+Initializing type node PERMANENT
+Initializing type node ACTUAL
+Initializing type node PHANTOM
+Initializing ANTLR parser
+Parsing file : D:\temp\scs_level_1\test3.scs
+New element has been discovered.
+	Identifier : a
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	0
+New element has been discovered.
+	Identifier : b
+	Identifier size : 1
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	5
+	0
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	0
+	4
+	6
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 15
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+Arc discovered. Source element : 13 Target element : 14 Arc element : 16
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 17
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	0
+Arc discovered. Source element : 13 Target element : 14 Arc element : 18
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	3
+	1
+Arc discovered. Source element : 13 Target element : 14 Arc element : 19
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	0
+Arc discovered. Source element : 13 Target element : 14 Arc element : 20
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	1
+Arc discovered. Source element : 13 Target element : 14 Arc element : 21
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 22
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 23
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 24
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 25
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	10
+Arc discovered. Source element : 13 Target element : 14 Arc element : 26
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 27
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	6
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 28
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 29
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	7
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 30
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	0
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 31
+New element has been discovered.
+	Identifier : 
+	Identifier size : 0
+	Data : (null)
+	Data size : 0
+	Data type : -1
+	Prefix identifier : default prefix
+	Prefix identifier size : 15
+	Prefix id : 0
+Element's types:
+	4
+	8
+	9
+	1
+	4
+	8
+	4
+	9
+Arc discovered. Source element : 13 Target element : 14 Arc element : 32
+Allocating MATRIX. All values are 0s. 
+	Required matrix size : 33x33 (elements) 
+	Actually allocating : 33x40 (elements)
+	Number of bytes per raw : 5
+METADATA
+	Element 0
+		Identifier a
+		Data (null)
+	Element 1
+		Identifier b
+		Data (null)
+	Element 2
+		Identifier (null)
+		Data (null)
+	Element 3
+		Identifier (null)
+		Data (null)
+	Element 4
+		Identifier (null)
+		Data (null)
+	Element 5
+		Identifier (null)
+		Data (null)
+	Element 6
+		Identifier (null)
+		Data (null)
+	Element 7
+		Identifier (null)
+		Data (null)
+	Element 8
+		Identifier (null)
+		Data (null)
+	Element 9
+		Identifier (null)
+		Data (null)
+	Element 10
+		Identifier (null)
+		Data (null)
+	Element 11
+		Identifier (null)
+		Data (null)
+	Element 12
+		Identifier (null)
+		Data (null)
+	Element 13
+		Identifier (null)
+		Data (null)
+	Element 14
+		Identifier (null)
+		Data (null)
+	Element 15
+		Identifier (null)
+		Data (null)
+	Element 16
+		Identifier (null)
+		Data (null)
+	Element 17
+		Identifier (null)
+		Data (null)
+	Element 18
+		Identifier (null)
+		Data (null)
+	Element 19
+		Identifier (null)
+		Data (null)
+MATRIX
+	0000000000000|11100101001010101010
+	0000000000000|00000010110101010101
+	0000000000000|00000000000000000000
+	0000000000000|00010110000000000000
+	0000000000000|00101001111111111111
+	0000000000000|11000000000000000000
+	0000000000000|00100000010000110000
+	0000000000000|00000000001100001100
+	0000000000000|00001001111111111111
+	0000000000000|00001000011111111111
+	0000000000000|00100000011111000000
+	0000000000000|00000000000000000000
+	0000000000000|00000000000000000000
+	----------------------------------
+	0000000000000|00111111111111111111 a
+	0000000000000|00000000000000000000 b
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
+	0000000000000|11000000000000000000
