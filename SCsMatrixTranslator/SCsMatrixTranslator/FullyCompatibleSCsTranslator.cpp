@@ -44,6 +44,108 @@ typedef enum
 
 */
 
+IntVector* convertScTypeToMatrixTypes(sc_type types) {
+	IntVector* matrixTypes;
+	IntVector* correspondingTypes;
+	initIntVector(&matrixTypes);
+	if (types & sc_type_node) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_link) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_link");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_edge_common) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_edge_common");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_common) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_common");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_access) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_access");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_const) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_const");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_var) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_var");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_pos) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_pos");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_neg) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_neg");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_fuz) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_fuz");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_temp) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_temp");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_arc_perm) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_arc_perm");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_tuple) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_tuple");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_struct) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_struct");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_role) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_role");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_norole) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_norole");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_class) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_class");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_abstract) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_abstract");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	if (types & sc_type_node_material) {
+		correspondingTypes = getCorrespondingTypesForScsType("sc_node_material");
+		appendIntVectorToIntVector(matrixTypes, correspondingTypes);
+		destroyIntVector(correspondingTypes, true);
+	}
+	return matrixTypes;
+}
+
 eSentenceType determineSentenceType(pANTLR3_BASE_TREE node)
 {
 	pANTLR3_COMMON_TOKEN tok = node->getToken(node);
@@ -115,40 +217,22 @@ void destroy() {
 	for (it = mElementSet.begin(); it != itEnd; ++it)
 	{
 		sElement *el = *it;
-
-		IntVector* sc_type_arc_pos_const_perm = getCorrespondingTypesForScsType("sc_arc_pos_const_perm");
-		if (intVectorsAreEqual(el->type,sc_type_arc_pos_const_perm))
+		if (el->type == sc_type_arc_pos_const_perm)
 		{
-			IntVector* type = _getTypeBySetIdtf(el->arc_src->idtf);
-			if (type->size)
+			sc_type type = _getTypeBySetIdtf(el->arc_src->idtf);
+			if (type != 0)
 			{
 				el->ignore = true;
-				IntVector* newType;
-				initIntVectorUsingVectorToCopy(&newType, el->arc_trg->type);
-				appendIntVectorToIntVector(newType,type);
+				sc_type newType = el->arc_trg->type | type;
 				// TODO check conflicts in sc-type
-				int const numberOfTypesConst = 2;
-				char * typesConst[numberOfTypesConst] = { "sc_const", "sc_var" };
-				IntVector* sc_type_constancy_mask = getTypesByMergingSeveral(typesConst, numberOfTypesConst);
-				if (intVectorsHaveCommonElements(type, sc_type_constancy_mask)) {
-					IntVector * typeConstancy = getCommonElementsOfIntVectorsContainedInFirst(type, sc_type_constancy_mask);
-					removeFromIntVectorAllValuesOfIntVector(newType, sc_type_constancy_mask);
-					appendIntVectorToIntVector(newType, typeConstancy);
-					destroyIntVector(typeConstancy, true);
-					//newType = (type & sc_type_constancy_mask) | (newType & ~sc_type_constancy_mask)
-				}
-				destroyIntVector(el->arc_trg->type, true);
-				destroyIntVector(sc_type_constancy_mask, true);
+				// TODO check conflicts in sc-type
+				if ((type & sc_type_constancy_mask) != 0)
+					newType = (type & sc_type_constancy_mask) | (newType & ~sc_type_constancy_mask);
 				el->arc_trg->type = newType;
 			}
 		}
-		destroyIntVector(sc_type_arc_pos_const_perm, true);
 		// arcs already have types
-		int const numberOfTypes = 3;
-		char * typesConst[numberOfTypes] = { "sc_arc_access", "sc_arc_common", "sc_edge_common"};
-		IntVector* sc_type_arc_mask = getTypesByMergingSeveral(typesConst, numberOfTypes);
-
-		if (!intVectorsHaveCommonElements(el->type,sc_type_arc_mask))
+		if (!(el->type & sc_type_arc_mask))
 			determineElementType(el);
 	}
 
@@ -194,7 +278,7 @@ void destroy() {
 	return result;
 }
 
-sElement* _createElement(const String &idtf, IntVector* types) {
+sElement* _createElement(const String &idtf, sc_type types) {
 	String newIdtf = idtf;
 	if (!idtf.empty())
 	{
@@ -208,7 +292,7 @@ sElement* _createElement(const String &idtf, IntVector* types) {
 			tElementIdtfMap::iterator it = mElementIdtf.find(idtf);
 			if (it != mElementIdtf.end())
 			{
-				appendIntVectorToIntVector(it->second->type, types);
+				it->second->type = it->second->type | types;
 				return it->second;
 			}
 		}
@@ -225,125 +309,81 @@ sElement* _createElement(const String &idtf, IntVector* types) {
 	return el;
 }
 
-sElement* _addNode(const String & idtf, IntVector* additionalTypes) {
-	IntVector* initialTypes = getCorrespondingTypesForScsType("sc_node");
-	appendIntVectorToIntVector(initialTypes, additionalTypes);
-	return _createElement(idtf, initialTypes);
+sElement* _addNode(const String & idtf, sc_type additionalTypes) {
+	return _createElement(idtf, sc_type_node | additionalTypes);
 }
 
-sElement* _addEdge(sElement* source, sElement* target, IntVector* additionalTypes, bool is_reversed, const String & idtf) {
+sElement* _addEdge(sElement* source, sElement* target, sc_type additionalTypes, bool is_reversed, const String & idtf) {
 	sElement *el = _createElement(idtf, additionalTypes);
-	if (is_reversed) {
+	if (is_reversed)
+	{
 		el->arc_src = target;
 		el->arc_trg = source;
 	}
-	else {
+	else
+	{
 		el->arc_src = source;
 		el->arc_trg = target;
 	}
 	return el;
-	/*
-	int connectorId = elementDiscoveredDefault(
-	idtf.c_str(),
-	idtf.size(),
-	additionalTypes->data,
-	additionalTypes->size);
-	int trueSourceId;
-	int trueTargetId;
-	if(is_reversed) {
-	trueSourceId = targetId;
-	trueTargetId = sourceId;
-	} else {
-	trueSourceId = sourceId;
-	trueTargetId = targetId;
-	}
-	arcDiscovered(trueSourceId, trueTargetId, connectorId);
-	return connectorId;
-	*/
 }
 
 sElement* _addLink(const String &idtf, const String & data) {
-	sElement *el = _createElement(idtf, getCorrespondingTypesForScsType("sc_link"));
+	sElement *el = _createElement(idtf, sc_type_link);
 	el->link_is_file = false;
 	el->link_data = data;
 	return el;
-	/*return elementDiscoveredDefaultLink(
-	idtf.c_str(),
-	idtf.size(),
-	str.c_str(),
-	str.size(),
-	DATA_TYPE_LINK
-	);*/
 }
 
 sElement* _addLinkFile(const String & idtf, const String & filePath) {
-	sElement *el = _createElement(idtf, getCorrespondingTypesForScsType("sc_link"));
+	sElement *el = _createElement(idtf, sc_type_link);
 	el->link_is_file = true;
 	el->file_path = filePath;
 	return el;
-	/*return elementDiscoveredDefaultLink(
-	idtf.c_str(),
-	idtf.size(),
-	str.c_str(),
-	str.size(),
-	DATA_TYPE_LINK_FILE
-	);*/
 }
 
 sElement* _addLinkString(const String & idtf, const String & str) {
-	sElement *el = _createElement(idtf, getCorrespondingTypesForScsType("sc_link"));
+	sElement *el = _createElement(idtf, sc_type_link);
 	el->link_is_file = false;
 	el->link_data = str;
 	return el;
-	/*return elementDiscoveredDefaultLink(
-	idtf.c_str(),
-	idtf.size(),
-	str.c_str(),
-	str.size(),
-	DATA_TYPE_LINK_STRING
-	);*/
 }
-
 
 #define GENERATE_ATTRS(idx) \
 tElementSet::iterator itSubj, itSubjEnd = subjects.end(); \
 for (itSubj = subjects.begin(); itSubj != itSubjEnd; ++itSubj) \
 { \
-	String  emptyString = "";\
     sElement *el_subj = *itSubj; \
-    sElement *el_arc = _addEdge(el_obj, el_subj, type_connector, _isConnectorReversed(connector), emptyString); \
+    sElement *el_arc = _addEdge(el_obj, el_subj, type_connector, _isConnectorReversed(connector), ""); \
     tElementSet::iterator itAttrs, itAttrsEnd = var_attrs.end(); \
-	for (itAttrs = var_attrs.begin(); itAttrs != itAttrsEnd; ++itAttrs){ \
-		int const numberOfTypes = 4;\
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_pos", "sc_arc_perm" };\
-        _addEdge(*itAttrs, el_arc, getTypesByMergingSeveral(types, numberOfTypes), false, emptyString);} \
+    for (itAttrs = var_attrs.begin(); itAttrs != itAttrsEnd; ++itAttrs) \
+        _addEdge(*itAttrs, el_arc, sc_type_arc_access | sc_type_var | sc_type_arc_pos | sc_type_arc_perm, false, ""); \
     itAttrsEnd = const_attrs.end(); \
     for (itAttrs = const_attrs.begin(); itAttrs != itAttrsEnd; ++itAttrs) \
-        _addEdge(*itAttrs, el_arc, getCorrespondingTypesForScsType("sc_arc_pos_const_perm"), false, emptyString); \
+        _addEdge(*itAttrs, el_arc, sc_type_arc_pos_const_perm, false, ""); \
     if (generate_order) \
-					    { \
+	    { \
         StringStream ss; \
         ss << "rrel_" << (idx++); \
-        _addEdge(_addNode(ss.str(), getCorrespondingTypesForScsType("sc_node_role")), el_arc, getCorrespondingTypesForScsType("sc_arc_pos_const_perm"), false, emptyString); \
-				    } \
-}\
+        _addEdge(_addNode(ss.str(), sc_type_node_role), el_arc, sc_type_arc_pos_const_perm, false, ""); \
+	    } \
+}
 
 sc_addr createScAddr(sElement *el)
 {
 	sc_addr addr;
 	SC_ADDR_MAKE_EMPTY(addr);
-
-	IntVector* sc_type_node = getCorrespondingTypesForScsType("sc_node");
-	IntVector* sc_type_link = getCorrespondingTypesForScsType("sc_link");
-	if (intVectorsHaveCommonElements(el->type, sc_type_node)) {
+	IntVector* matrixTypes = NULL;
+	if (el->type & sc_type_node) {
+		matrixTypes = convertScTypeToMatrixTypes(el->type);
 		int elementId = elementDiscoveredDefault(
 			el->idtf.c_str(),
 			el->idtf.size(),
-			el->type->data,
-			el->type->size);
+			matrixTypes->data,
+			matrixTypes->size);
 		addr.matrixId = elementId;
 	}
-	else if (intVectorsHaveCommonElements(el->type, sc_type_link))
+	else if (el->type & sc_type_link)
 	{
 
 		// setup link content
@@ -394,8 +434,6 @@ sc_addr createScAddr(sElement *el)
 			sc_memory_set_link_content(mContext, addr, stream);
 			sc_stream_free(stream);*/
 		}
-		destroyIntVector(sc_type_node, true);
-		destroyIntVector(sc_type_link, true);
 
 		// TODO skipping this part too
 		// generate format information
@@ -414,14 +452,18 @@ sc_addr createScAddr(sElement *el)
 		assert(el->arc_src && el->arc_trg);
 		if (SC_ADDR_IS_EMPTY(el->arc_src->addr) || SC_ADDR_IS_EMPTY(el->arc_trg->addr))
 			return addr;
+		matrixTypes = convertScTypeToMatrixTypes(el->type);
 		int elementId = elementDiscoveredDefault(
 			el->idtf.c_str(),
 			el->idtf.size(),
-			el->type->data,
-			el->type->size);
+			matrixTypes->data,
+			matrixTypes->size);
 		addr.matrixId = elementId;
 		arcDiscovered(el->arc_src->addr.matrixId, el->arc_trg->addr.matrixId, addr.matrixId);
 		//addr = sc_memory_arc_new(mContext, el->type, el->arc_src->addr, el->arc_trg->addr);
+	}
+	if (matrixTypes) {
+		destroyIntVector(matrixTypes, true);
 	}
 	el->addr = addr;
 	return addr;
@@ -430,38 +472,22 @@ sc_addr createScAddr(sElement *el)
 void determineElementType(sElement *el)
 {
 	//assert(el);
-	IntVector* oldType = el->type;
-	IntVector* newType = oldType;
+	sc_type oldType = el->type;
+	sc_type newType = oldType;
 
-	int const numberOfTypes = 5;
-	char * types[numberOfTypes] = { "sc_node", "sc_link", "sc_edge_common", "sc_arc_common", "sc_arc_access" };
-	IntVector* sc_type_element_mask = getTypesByMergingSeveral(types, numberOfTypes);
-	IntVector* sc_type_node = getCorrespondingTypesForScsType("sc_node");
-	//if ((newType & sc_type_element_mask) == 0)
-	//newType = newType | sc_type_node;
-	if (!intVectorsHaveCommonElements(newType, sc_type_element_mask)) {
-		appendIntVectorToIntVector(newType, sc_type_node);
-	}
-	destroyIntVector(sc_type_element_mask, true);
-	destroyIntVector(sc_type_node, true);
-	// Remove constancy types
-	int const numberOfTypesConst = 2;
-	char * typesConst[numberOfTypesConst] = { "sc_const", "sc_var" };
-	IntVector* sc_type_constancy_mask = getTypesByMergingSeveral(typesConst, numberOfTypesConst);
-	removeFromIntVectorAllValuesOfIntVector(newType, sc_type_constancy_mask);
-	destroyIntVector(sc_type_constancy_mask, true);
-	// Reset constancy
-	IntVector* const_type = _isIdentifierVar(el->idtf) ?
-		getCorrespondingTypesForScsType("sc_var") :
-		getCorrespondingTypesForScsType("sc_const");
-	appendIntVectorToIntVector(newType, const_type);
-	destroyIntVector(const_type, true);
+	if ((newType & sc_type_element_mask) == 0)
+		newType = newType | sc_type_node;
+
+	newType = (newType & (~sc_type_constancy_mask));
+	sc_type const_type = _isIdentifierVar(el->idtf) ? sc_type_var : sc_type_const;
+	newType = newType | (const_type);
+
 	el->type = newType;
 }
 
 void processAttrsIdtfList(bool ignore_first, pANTLR3_BASE_TREE node, sElement * el_obj, const String &connector, bool generate_order)
 {
-	IntVector* type_connector = _getTypeByConnector(connector);
+	sc_type type_connector = _getTypeByConnector(connector);
 
 	tElementSet var_attrs, const_attrs;
 	tElementSet subjects;
@@ -516,21 +542,19 @@ void processSentenceLevel1(pANTLR3_BASE_TREE node)
 	sElement * el_obj = parseElementTree(node_obj, NULL);
 	sElement * el_subj = parseElementTree(node_subj, NULL);
 	// determine arc type
-	IntVector* types = getCorrespondingTypesForScsType("sc_edge_common");
+	sc_type type = sc_type_edge_common;
 	String pred = GET_NODE_TEXT(node_pred);
 	size_t n = pred.find_first_of("#");
 	if (n != pred.npos)
-		types = _getArcPreffixType(pred.substr(0, n));
-	_addEdge(el_obj, el_subj, types, false, pred);
+		type = _getArcPreffixType(pred.substr(0, n));
+	_addEdge(el_obj, el_subj, type, false, pred);
 }
 
 void processSentenceLevel2_7(pANTLR3_BASE_TREE node) {
 	String connector = GET_NODE_TEXT(node);
 	// determine object
 	pANTLR3_BASE_TREE node_obj = (pANTLR3_BASE_TREE)node->getChild(node, 0);
-	IntVector * emptyTypes;
-	initIntVector(&emptyTypes);
-	sElement * el_obj = _createElement(GET_NODE_TEXT(node_obj), emptyTypes);
+	sElement * el_obj = _createElement(GET_NODE_TEXT(node_obj), 0);
 	// no we need to parse attributes and predicates
 	processAttrsIdtfList(true, node, el_obj, connector, false);
 }
@@ -697,7 +721,7 @@ sElement* parseElementTree(pANTLR3_BASE_TREE tree, const String *assignIdtf) {
 
 	if (tok->type == CONTENT)
 	{
-		res = _addNode(assignIdtf ? *assignIdtf : "", getCorrespondingTypesForScsType("sc_node_struct"));
+		res = _addNode(assignIdtf ? *assignIdtf : "", sc_type_node_struct);
 
 		String content = GET_NODE_TEXT(tree);
 		content = content.substr(1, content.size() - 2);
@@ -791,7 +815,7 @@ sElement* parseElementTree(pANTLR3_BASE_TREE tree, const String *assignIdtf) {
 	}
 	if (tok->type == SEP_LTUPLE || tok->type == SEP_LSET)
 	{
-		res = _addNode("", getCorrespondingTypesForScsType("sc_node_tuple"));
+		res = _addNode("", sc_type_node_tuple);
 		processAttrsIdtfList(false, tree, res, "->", tok->type == SEP_LTUPLE);
 	}
 	// now process internal sentences
@@ -814,219 +838,113 @@ sElement* parseElementTree(pANTLR3_BASE_TREE tree, const String *assignIdtf) {
 	return res;
 }
 
-IntVector* _getArcPreffixType(const String &preffix) {
+sc_type _getArcPreffixType(const String &preffix) {
 	// do not use map, to prevent it initialization on class creation
-	if(preffix == "sc_arc_common"
-		|| preffix == "sc_arc_main"
-		|| preffix == "sc_arc_access"
-		) {
-		return getCorrespondingTypesForScsType(preffix.c_str());
-	}
-	else {
-		return getCorrespondingTypesForScsType("sc_edge_common");
-	}
+	if (preffix == "sc_arc_common")
+		return sc_type_arc_common;
+	if (preffix == "sc_arc_main")
+		return sc_type_arc_pos_const_perm;
+	if (preffix == "sc_arc_access")
+		return sc_type_arc_access;
+	return sc_type_edge_common;
 }
 
+sc_type _getTypeBySetIdtf(const String &setIdtf) {
+	if (setIdtf == "sc_edge_const")
+		return sc_type_edge_common | sc_type_const;
+	if (setIdtf == "sc_edge_var")
+		return sc_type_edge_common | sc_type_var;
+	if (setIdtf == "sc_arc_common_const")
+		return sc_type_arc_common | sc_type_const;
+	if (setIdtf == "sc_arc_common_var")
+		return sc_type_arc_common | sc_type_var;
 
+	if (setIdtf == "sc_arc_access_var_pos_perm")
+		return sc_type_arc_access | sc_type_var | sc_type_arc_pos | sc_type_arc_perm;
+	if (setIdtf == "sc_arc_access_const_neg_perm")
+		return sc_type_arc_access | sc_type_const | sc_type_arc_neg | sc_type_arc_perm;
+	if (setIdtf == "sc_arc_access_var_neg_perm")
+		return sc_type_arc_access | sc_type_var | sc_type_arc_neg | sc_type_arc_perm;
+	if (setIdtf == "sc_arc_access_const_fuz_perm")
+		return sc_type_arc_access | sc_type_const | sc_type_arc_fuz | sc_type_arc_perm;
+	if (setIdtf == "sc_arc_access_var_fuz_perm")
+		return sc_type_arc_access | sc_type_var | sc_type_arc_fuz | sc_type_arc_perm;
 
-IntVector* _getTypeBySetIdtf(const String &setIdtf) {
-	IntVector* result = NULL;
-	if (setIdtf == "sc_edge_const") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_edge_common", "sc_const" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_edge_var") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = {"sc_edge_common", "sc_var" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_common_const") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_arc_common", "sc_const" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_common_var"){
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_arc_common", "sc_var" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);\
-	}
-	if (setIdtf == "sc_arc_access_var_pos_perm") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_pos", "sc_arc_perm"};
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_const_neg_perm") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_neg", "sc_arc_perm" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_var_neg_perm") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_neg", "sc_arc_perm" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_const_fuz_perm") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_fuz", "sc_arc_perm" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_var_fuz_perm") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_fuz", "sc_arc_perm" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_const_pos_temp") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_pos", "sc_arc_temp" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_var_pos_temp") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_pos", "sc_arc_temp" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_const_neg_temp") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_neg", "sc_arc_temp" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_var_neg_temp") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_neg", "sc_arc_temp" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_const_fuz_temp")  {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_fuz", "sc_arc_temp" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_arc_access_var_fuz_temp") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_fuz", "sc_arc_temp" };
-		result = getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (setIdtf == "sc_const") {
-		result = getCorrespondingTypesForScsType("sc_const");
-	}
-	if (setIdtf == "sc_var") {
-		result = getCorrespondingTypesForScsType("sc_var");
-	}
-	if (setIdtf == "sc_node_not_binary_tuple") {
-		result = getCorrespondingTypesForScsType("sc_node_tuple");
-	}
-	if (setIdtf == "sc_node_struct") {
-		result = getCorrespondingTypesForScsType("sc_node_struct");
-	}
-	if (setIdtf == "sc_node_role_relation") {
-		result = getCorrespondingTypesForScsType("sc_node_role_relation");
-	}
-	if (setIdtf == "sc_node_norole_relation") {
-		result = getCorrespondingTypesForScsType("sc_node_norole_relation");
-	}
-	if (setIdtf == "sc_node_not_relation") {
-		result = getCorrespondingTypesForScsType("sc_node_not_relation");
-	}
-	if (setIdtf == "sc_node_abstract") {
-		result = getCorrespondingTypesForScsType("sc_node_abstract");
-	}
-	if (setIdtf == "sc_node_material") {
-		result = getCorrespondingTypesForScsType("sc_node_material");
-	}
-	if (!result) {
-		initIntVector(&result);
-	}
-	return result;
+	if (setIdtf == "sc_arc_access_const_pos_temp")
+		return sc_type_arc_access | sc_type_const | sc_type_arc_pos | sc_type_arc_temp;
+	if (setIdtf == "sc_arc_access_var_pos_temp")
+		return sc_type_arc_access | sc_type_var | sc_type_arc_pos | sc_type_arc_temp;
+	if (setIdtf == "sc_arc_access_const_neg_temp")
+		return sc_type_arc_access | sc_type_const | sc_type_arc_neg | sc_type_arc_temp;
+	if (setIdtf == "sc_arc_access_var_neg_temp")
+		return sc_type_arc_access | sc_type_var | sc_type_arc_neg | sc_type_arc_temp;
+	if (setIdtf == "sc_arc_access_const_fuz_temp")
+		return sc_type_arc_access | sc_type_const | sc_type_arc_fuz | sc_type_arc_temp;
+	if (setIdtf == "sc_arc_access_var_fuz_temp")
+		return sc_type_arc_access | sc_type_var | sc_type_arc_fuz | sc_type_arc_temp;
+
+	if (setIdtf == "sc_const")
+		return sc_type_const;
+	if (setIdtf == "sc_var")
+		return sc_type_var;
+	if (setIdtf == "sc_node_not_binary_tuple")
+		return sc_type_node_tuple;
+	if (setIdtf == "sc_node_struct")
+		return sc_type_node_struct;
+	if (setIdtf == "sc_node_role_relation")
+		return sc_type_node_role;
+	if (setIdtf == "sc_node_norole_relation")
+		return sc_type_node_norole;
+	if (setIdtf == "sc_node_not_relation")
+		return sc_type_node_class;
+	if (setIdtf == "sc_node_abstract")
+		return sc_type_node_abstract;
+	if (setIdtf == "sc_node_material")
+		return sc_type_node_material;
+	return 0;
 }
 
-IntVector* _getTypeByConnector(const String &connector) {
-	if (connector == ">" || connector == "<") {
-		return getCorrespondingTypesForScsType("sc_arc_common");
-	}
-	if (connector == "->" || connector == "<-") {
-		return getCorrespondingTypesForScsType("sc_arc_pos_const_perm");
-	}
-	if (connector == "<>") {
-		return getCorrespondingTypesForScsType("sc_edge_common");
-	}
-	if (connector == "..>" || connector == "<..") {
-		return getCorrespondingTypesForScsType("sc_arc_access");
-	}
-	if (connector == "<=>") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_edge_common", "sc_const" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_<=>") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_edge_common", "sc_var" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "=>" || connector == "<=") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_arc_common", "sc_const" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_=>" || connector == "_<=") {
-		int const numberOfTypes = 2;
-		char * types[numberOfTypes] = { "sc_arc_common", "sc_var" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_->" || connector == "_<-") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_pos", "sc_arc_perm"};
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "-|>" || connector == "<|-") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_neg", "sc_arc_perm" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_-|>" || connector == "_<|-") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_neg", "sc_arc_perm" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "-/>" || connector == "</-") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_fuz", "sc_arc_perm" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_-/>" || connector == "_</-") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_fuz", "sc_arc_perm" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "~>" || connector == "<~") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_pos", "sc_arc_temp" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_~>" || connector == "_<~") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_pos", "sc_arc_temp" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "~|>" || connector == "<|~") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_neg", "sc_arc_temp" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_~|>" || connector == "_<|~") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_neg", "sc_arc_temp" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "~/>" || connector == "</~")  {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_const", "sc_arc_fuz", "sc_arc_temp" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
-	if (connector == "_~/>" || connector == "_</~") {
-		int const numberOfTypes = 4;
-		char * types[numberOfTypes] = { "sc_arc_access", "sc_var", "sc_arc_fuz", "sc_arc_temp" };
-		return  getTypesByMergingSeveral(types, numberOfTypes);
-	}
+sc_type _getTypeByConnector(const String &connector) {
+	if (connector == ">" || connector == "<")
+		return sc_type_arc_common;
+	if (connector == "->" || connector == "<-")
+		return sc_type_arc_pos_const_perm;
+	if (connector == "<>")
+		return sc_type_edge_common;
+	if (connector == "..>" || connector == "<..")
+		return sc_type_arc_access;
+	if (connector == "<=>")
+		return sc_type_edge_common | sc_type_const;
+	if (connector == "_<=>")
+		return sc_type_edge_common | sc_type_var;
+
+	if (connector == "=>" || connector == "<=")
+		return sc_type_arc_common | sc_type_const;
+	if (connector == "_=>" || connector == "_<=")
+		return sc_type_arc_common | sc_type_var;
+	if (connector == "_->" || connector == "_<-")
+		return sc_type_arc_access | sc_type_arc_pos | sc_type_var | sc_type_arc_perm;
+	if (connector == "-|>" || connector == "<|-")
+		return sc_type_arc_access | sc_type_arc_neg | sc_type_const | sc_type_arc_perm;
+	if (connector == "_-|>" || connector == "_<|-")
+		return sc_type_arc_access | sc_type_arc_neg | sc_type_var | sc_type_arc_perm;
+	if (connector == "-/>" || connector == "</-")
+		return sc_type_arc_access | sc_type_arc_fuz | sc_type_const | sc_type_arc_perm;
+	if (connector == "_-/>" || connector == "_</-")
+		return sc_type_arc_access | sc_type_arc_fuz | sc_type_var | sc_type_arc_perm;
+	if (connector == "~>" || connector == "<~")
+		return sc_type_arc_access | sc_type_arc_pos | sc_type_const | sc_type_arc_temp;
+	if (connector == "_~>" || connector == "_<~")
+		return sc_type_arc_access | sc_type_arc_pos | sc_type_var | sc_type_arc_temp;
+	if (connector == "~|>" || connector == "<|~")
+		return sc_type_arc_access | sc_type_arc_neg | sc_type_const | sc_type_arc_temp;
+	if (connector == "_~|>" || connector == "_<|~")
+		return sc_type_arc_access | sc_type_arc_neg | sc_type_var | sc_type_arc_temp;
+	if (connector == "~/>" || connector == "</~")
+		return sc_type_arc_access | sc_type_arc_fuz | sc_type_const | sc_type_arc_temp;
+	if (connector == "_~/>" || connector == "_</~")
+		return sc_type_arc_access | sc_type_arc_fuz | sc_type_var | sc_type_arc_temp;
+	return 0;
 }
 
 bool _isConnectorReversed(const String &connector)
